@@ -36,7 +36,7 @@ app.post('/rotUrls', async (req,res) => {
     else
         res.cookie("rot",[rotUrl.short] )
 
-    console.log(req.cookies)
+    // console.log(req.cookies)
     res.redirect('/')
 })
 
